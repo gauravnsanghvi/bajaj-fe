@@ -1,0 +1,54 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.form-container {
+  margin: 20px 0;
+}
+
+.api-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 10px;
+}
+
+.dropdown-container {
+  margin-top: 20px;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.response-container {
+  margin-top: 20px;
+  text-align: left;
+}
